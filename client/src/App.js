@@ -19,7 +19,7 @@ function App() {
       <form onSubmit={(e) => {
         e.preventDefault();
       }}>
-        <input className={app.input} type="text" value={name} onChange={updateName} placeholder="Enter your name..."></input>
+        <input className={app.input} type="text" value={name} onChange={updateName} placeholder="Enter your name..." />
       </form>
     </>
   );
